@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CategoriesViewController.swift
 //  coder-swag
 //
 //  Created by JasmineChan on 2018-04-16.
@@ -8,8 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class CategoriesViewController: UIViewController {
+    
+    @IBOutlet weak var categoryTable: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
